@@ -34,14 +34,13 @@ export default function Page() {
       </header>
       <div className="container">
         <main>
+          <h2>WELCOME TO HEX GENERATION APPLICATION</h2>
           <div>
-            <h2>WELCOME TO HEX GENERATION APPLICATION</h2>
-
             <input placeholder="Enter Hex Code: " onChange={getColorInput} />
           </div>
-          <Button />
         </main>
       </div>
+      <Button />
     </div>
   );
 }
