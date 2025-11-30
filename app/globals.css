@@ -26,7 +26,7 @@ body {
 input {
   /* margin-top: 20px; */
   border: none;
-  width: 350px;
+  width: 290px;
   padding: 10px;
   position: relative;
   top: 250px;
@@ -69,10 +69,11 @@ button {
     font-size: 10px;
     font-family: sans-serif;
     font-weight: 100;
+    letter-spacing: 3px;
   }
 
   input {
-    width: 250px;
+    width: 290px;
   }
 }
 
@@ -83,10 +84,11 @@ button {
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 100;
+    letter-spacing: 3px;
   }
 
   input {
-    width: 250px;
+    width: 290px;
   }
 }
 
@@ -94,25 +96,25 @@ button {
   #appTitle {
     position: relative;
     top: 189px;
-    font-size: 16px;
+    font-size: 13px;
     font-family: sans-serif;
     font-weight: 100;
-    /* letter-spacing: 5px; */
+    letter-spacing: 3px;
   }
 
   input {
-    width: 350px;
+    width: 290px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   #appTitle {
     position: relative;
-    top: 189px;
-    font-size: 16px;
+    top: 210px;
+    font-size: 13px;
     font-family: sans-serif;
-    font-weight: 100;
-    /* letter-spacing: 5px; */
+    font-weight: 900;
+    letter-spacing: 3px;
   }
 
   span {
@@ -120,6 +122,6 @@ button {
   }
 
   input {
-    width: 350px;
+    width: 290px;
   }
 }
