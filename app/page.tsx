@@ -9,6 +9,14 @@ export default function Page() {
     setHexColor(e.target.value);
   }
 
+  function CreateHeading() {
+    return (
+      <div>
+        <h2 id="appTitle">WELCOME TO HEX GENERATION APPLICATION</h2>
+      </div>
+    );
+  }
+
   function setBackground(e: any) {
     if (hexColor == "#") {
       document.body.style.backgroundColor = "#" + hexColor;
@@ -34,7 +42,7 @@ export default function Page() {
       </header>
       <div className="container">
         <main>
-          <h2>WELCOME TO HEX GENERATION APPLICATION</h2>
+          <CreateHeading />
           <div>
             <input placeholder="Enter Hex Code: " onChange={getColorInput} />
           </div>
