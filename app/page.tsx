@@ -12,7 +12,9 @@ export default function Page() {
   function CreateHeading() {
     return (
       <div>
-        <h2 id="appTitle">WELCOME TO HEX GENERATION APPLICATION</h2>
+        <h2 id="appTitle">
+          <span>WELCOME TO </span>HEX GENERATION APPLICATION
+        </h2>
       </div>
     );
   }
